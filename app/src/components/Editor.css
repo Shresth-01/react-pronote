@@ -1,0 +1,27 @@
+
+.container{
+    display: flex;
+    color: white;
+}
+h3{
+    font-size: medium;
+    font-weight: lighter;
+}
+.input,.output{
+    width: 40%;
+    margin-left: 5%;
+}
+.input-text{
+    background-color: rgb(54, 95, 218);
+    border: 4px solid rgb(89, 88, 88);
+    height: 400px;
+    width: 500px;
+}
+.output-text{
+    background-color: rgb(60, 60, 60);
+    border: 4px solid rgb(60, 60, 60);
+    box-shadow: 7px 7px 20px black;
+    height: 450px;
+    width: 400px;
+    overflow-wrap: anywhere;
+}
